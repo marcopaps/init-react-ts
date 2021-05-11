@@ -13,5 +13,3 @@
 -   `prettier` - code formatting
 
 -   `git` - version control
-
--   `storybook` - component dev util
