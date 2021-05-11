@@ -1,0 +1,19 @@
+{
+  "name": "react-ts-template",
+  "version": "1.0.0",
+  "description": "- `typescript` - js superset language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcopaps/react-ts-template.git"
+  },
+  "author": "marco budiongan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcopaps/react-ts-template/issues"
+  },
+  "homepage": "https://github.com/marcopaps/react-ts-template#readme"
+}
