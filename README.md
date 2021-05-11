@@ -1,15 +1,17 @@
 ### React TS template
 
-- `typescript` - js superset language
+-   `node.js` - js runtime environment
 
-- `react.js` - frontend library
+-   `typescript` - js superset language
 
-- `create-react-app` - react boilerplate
+-   `react.js` - frontend library
 
-- `eslint` (airbnb) - basic code standards
+-   `webpack` - module bundler
 
-- `prettier` - code formatting
+-   `eslint` (airbnb) - basic code standards
 
-- `git` - version control
+-   `prettier` - code formatting
 
-- `storybook` - component dev util
+-   `git` - version control
+
+-   `storybook` - component dev util
