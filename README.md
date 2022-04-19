@@ -13,3 +13,5 @@
 -   `prettier` - code formatting
 
 -   `git` - version control
+
+-   `docker` - containerization
