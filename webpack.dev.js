@@ -7,7 +7,7 @@ const devConfig = merge(common, {
     devtool: "inline-source-map",
     devServer: {
         static: {
-            directory: path.resolve("src"),
+            directory: path.resolve("public"),
         },
     },
 });
