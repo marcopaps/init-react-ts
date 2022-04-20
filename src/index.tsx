@@ -1,11 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { MainLayout } from "@/layouts";
-import AppRoutes from "@/routes";
+import { AppRoutes } from "@/routes";
 import "./style.css";
 
-ReactDOM.render(
+const container = document.getElementById("root") as Element;
+const root = ReactDOM.createRoot(container);
+
+root.render(
     <React.StrictMode>
         <MainLayout>
             <BrowserRouter>
@@ -13,5 +16,4 @@ ReactDOM.render(
             </BrowserRouter>
         </MainLayout>
     </React.StrictMode>,
-    document.getElementById("root"),
 );
