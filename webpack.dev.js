@@ -6,6 +6,7 @@ const devConfig = merge(common, {
     mode: "development",
     devtool: "inline-source-map",
     devServer: {
+        historyApiFallback: true,
         static: {
             directory: path.resolve("public"),
         },

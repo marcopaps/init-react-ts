@@ -1,11 +1,12 @@
 {
     "name": "react-ts-template",
     "version": "1.0.0",
-    "description": "- `typescript` - js superset language",
+    "description": "React Typescript boilerplate",
     "main": "index.js",
     "scripts": {
         "webpack": "webpack",
         "build": "webpack --config webpack.prod.js",
+        "build-start": "yarn build && npx serve -s build",
         "dev": "webpack serve --open --config webpack.dev.js"
     },
     "repository": {
@@ -24,6 +25,9 @@
         "react-router-dom": "6.3.0"
     },
     "devDependencies": {
+        "@babel/core": "7.17.9",
+        "@babel/preset-env": "7.16.11",
+        "@babel/preset-react": "7.16.7",
         "@babel/preset-typescript": "7.16.7",
         "@types/react": "18.0.5",
         "@types/react-dom": "18.0.1",

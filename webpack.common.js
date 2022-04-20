@@ -19,8 +19,8 @@ const commonConfig = {
     module: {
         rules: [
             {
-                test: /\.(ts|tsx)$/,
-                exclude: /node_modules/,
+                test: /\.tsx?$/,
+                exclude: "/node_modules/",
                 use: ["ts-loader"],
             },
             {
