@@ -1,4 +1,18 @@
-### React TS template
+## React TS template
+
+### React boilerplate for starting a react project
+
+---
+
+### To start project:
+
+```
+$ yarn dev
+```
+
+---
+
+### Tech stack used
 
 -   `node.js` - js runtime environment
 
@@ -8,10 +22,12 @@
 
 -   `webpack` - module bundler
 
--   `eslint` (airbnb) - basic code standards
+-   `eslint` - basic code standards
 
 -   `prettier` - code formatting
 
 -   `git` - version control
 
 -   `docker` - containerization
+
+-   `tailwindcss` - css class utility
