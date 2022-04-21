@@ -1,7 +1,7 @@
 import HomePage from "@/pages/HomePage";
-import NotFound from "@/pages/NotFound/index";
+import NotFoundPage from "@/pages/NotFoundPage";
 
 export const publicRoutes = [
     { path: "/", element: <HomePage /> },
-    { path: "*", element: <NotFound /> },
+    { path: "*", element: <NotFoundPage /> },
 ];

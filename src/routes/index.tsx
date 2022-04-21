@@ -1,14 +1,19 @@
-import { useRoutes } from "react-router-dom";
+import { BrowserRouter, useRoutes } from "react-router-dom";
 import { useIsLoggedIn } from "@/hooks";
 import { publicRoutes } from "./public";
 import { protectedRoutes } from "./protected";
 
-const AppRoutes = () => {
+const Routes = () => {
     const isLoggedIn = useIsLoggedIn();
-    const routes = isLoggedIn ? protectedRoutes : publicRoutes;
+    const routes = isLoggedIn ? [...protectedRoutes, ...publicRoutes] : publicRoutes;
 
-    const element = useRoutes([...routes]);
-    return <>{element}</>;
+    return useRoutes(routes);
 };
 
-export default AppRoutes;
+export const AppRoutes = () => {
+    return (
+        <BrowserRouter>
+            <Routes />
+        </BrowserRouter>
+    );
+};
