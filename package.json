@@ -1,6 +1,6 @@
 {
-    "name": "react-ts-template",
-    "version": "1.0.0",
+    "name": "init-react-ts",
+    "version": "0.0.0",
     "description": "React Typescript boilerplate",
     "main": "index.js",
     "scripts": {
@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/marcopaps/react-ts-template.git"
+        "url": "git+https://github.com/marcopaps/init-react-ts.git"
     },
     "author": "marco budiongan",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/marcopaps/react-ts-template/issues"
+        "url": "https://github.com/marcopaps/init-react-ts/issues"
     },
-    "homepage": "https://github.com/marcopaps/react-ts-template#readme",
+    "homepage": "https://github.com/marcopaps/init-react-ts#readme",
     "dependencies": {
         "react": "18.0.0",
         "react-dom": "18.0.0",
