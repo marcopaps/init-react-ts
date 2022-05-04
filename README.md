@@ -7,6 +7,7 @@
 ### To start project:
 
 ```
+$ yarn
 $ yarn dev
 ```
 
